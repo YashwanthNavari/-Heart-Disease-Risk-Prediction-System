@@ -1,16 +1,83 @@
-# React + Vite
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=40&pause=1000&color=E8323A&center=true&vCenter=true&width=600&lines=StrokeGuard+AI;Predictive+Healthcare;Explainable+Machine+Learning" alt="Typing SVG" />
+  
+  <p align="center">
+    <strong>A high-fidelity, interactive React dashboard for real-time stroke risk prediction using Explainable AI (XAI).</strong>
+  </p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  <p align="center">
+    <a href="https://yashwanthnavari.github.io/-Heart-Disease-Risk-Prediction-System/"><img src="https://img.shields.io/badge/🔴_Live_Demo-StrokeGuard_AI-E8323A?style=for-the-badge&logo=github" alt="Live Demo" /></a>
+  </p>
 
-Currently, two official plugins are available:
+  <p align="center">
+    <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB" alt="React" />
+    <img src="https://img.shields.io/badge/Vite-B73BFE?style=flat&logo=vite&logoColor=FFD62E" alt="Vite" />
+    <img src="https://img.shields.io/badge/Machine%20Learning-F9AB00?style=flat&logo=google-cloud&logoColor=white" alt="Machine Learning" />
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" alt="JavaScript" />
+  </p>
+</div>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**StrokeGuard AI** is not just an ML model, it's a bridge between clinical intuition and algorithmic prediction. Built to combat the severe class imbalance of real-world stroke datasets, this system implements pre-trained Logistic Regression, Random Forest, and AdaBoost models. 
 
-## Expanding the ESLint configuration
+Through an interactive frontend architecture, clinicians and users can visually dissect feature importances via SHAP-like waterfalls and dynamic risk contribution models.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ System Architecture & Features
+
+### 🔬 1. Dataset & SMOTE Imbalance Visualizer
+Real-world medical datasets are massively skewed (our dataset has a 95.1% to 4.9% ratio of healthy to stroke patients). The **Overview** tab dynamically bridges the gap by visualizing the pre-processing pipeline, specifically highlighting how **SMOTE** (Synthetic Minority Over-sampling Technique) prevents the classifier from collapsing into an all-negative predictor.
+
+### ⚔️ 2. Model Arena
+A live competitive view of our classifier algorithms:
+- **Logistic Regression**, **AdaBoost**, and **Random Forest**.
+- Dynamically rendered Custom SVG **ROC curves**.
+- Direct visual comparisons showing Test Area Under the Curve (AUC) vs. Cross-Validation AUC to detect data-leakage and overfitting.
+
+### 🧠 3. Explainable AI (XAI) & SHAP
+The "black box" is opened using custom-built SVG SHAP beeswarm simulators and waterfall representations. Users can see mathematically **why** a patient was flagged:
+- Top features Gini Importances.
+- Percentage breakdown between actionable (Clinical, Lifestyle) and non-actionable (Demographic) variables.
+
+### 🩺 4. Live Risk Predictor Engine
+Input patient biometrics in real-time and watch the live risk score update dynamically on a custom-designed **Retro Dot-Matrix Display**. The dashboard transforms the raw output probabilities back into actionable clinical language based on variable contributions. 
+
+---
+
+## 🛠️ Technical Implementation
+
+The system is a fully client-side static web application designed for absolute zero-latency execution. 
+
+* **Data Handling**: All complex standardizations (Z-scores), categorical one-hot-encodings, and mathematical regressions (Sigmoid, Extrapolation) are executed smoothly inside pure JavaScript functional pipelines (`src/data.js`).
+* **Visuals**: Zero raster images. Everything is drawn mathematically using CSS Grid matrices, dynamic Recharts parameters, and inline SVG manipulation.
+
+---
+
+## 💻 Getting Started Locally
+
+Want to run the dashboard on your own machine? It takes less than 30 seconds:
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/YashwanthNavari/-Heart-Disease-Risk-Prediction-System.git
+
+# 2. Enter the directory
+cd -Heart-Disease-Risk-Prediction-System
+
+# 3. Install NPM dependencies
+npm install
+
+# 4. Start the Vite development server
+npm run dev
+```
+
+Visit `http://localhost:5173` to explore the dashboard locally.
+
+---
+<div align="center">
+  <sub>Built with ❤️ by Yashwanth Reddy | <a href="https://github.com/YashwanthNavari">GitHub Profile</a></sub>
+</div>
