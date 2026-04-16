@@ -24,14 +24,24 @@
 <div align="center">
 
 <!-- Animated pulse beacon -->
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&pause=1000&color=00FF88&center=true&vCenter=true&width=600&lines=✅+Deployed+%26+Live+on+GitHub+Pages;🚀+Zero-Latency+Static+Hosting;🔗+Click+Below+to+Launch+the+App" alt="Deployment Status" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&pause=1000&color=00FF88&center=true&vCenter=true&width=600&lines=✅+Deployed+%26+Live+on+GitHub+Pages;🚀+Zero-Latency+Static+Hosting;👇+CLICK+THE+BUTTON+BELOW+👇" alt="Deployment Status" />
+
+<br/>
+
+<!-- Click Me label -->
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=900&size=28&pause=500&color=FFD700&center=true&vCenter=true&width=400&lines=👇+CLICK+ME+👇;⬇️+LAUNCH+THE+APP+⬇️;🖱️+TRY+IT+LIVE+🖱️" alt="Click Me" />
 
 <br/>
 
 <!-- Glowing live demo button -->
 <a href="https://yashwanthnavari.github.io/-Heart-Disease-Risk-Prediction-System/" target="_blank">
-  <img src="https://img.shields.io/badge/🟢_LIVE-StrokeGuard_AI_Dashboard-00FF88?style=for-the-badge&labelColor=0D1117&color=00FF88" alt="Live Demo" height="45"/>
+  <img src="https://img.shields.io/badge/🟢_CLICK_HERE_→_LIVE_DEMO-StrokeGuard_AI_Dashboard-00FF88?style=for-the-badge&labelColor=0D1117&color=00FF88" alt="👆 CLICK ME — Live Demo" height="55"/>
 </a>
+
+<br/>
+
+<!-- Bouncing arrow pointer -->
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=800&size=20&pause=400&color=FFD700&center=true&vCenter=true&width=350&lines=☝️+Yes,+that+button+above!;☝️+Go+ahead,+click+it!;☝️+It's+live+and+ready!" alt="Arrow up" />
 
 <br/><br/>
 
