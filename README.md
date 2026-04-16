@@ -19,6 +19,46 @@
 
 ---
 
+## 🌐 Live Deployment
+
+<div align="center">
+
+<!-- Animated pulse beacon -->
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&pause=1000&color=00FF88&center=true&vCenter=true&width=600&lines=✅+Deployed+%26+Live+on+GitHub+Pages;🚀+Zero-Latency+Static+Hosting;🔗+Click+Below+to+Launch+the+App" alt="Deployment Status" />
+
+<br/>
+
+<!-- Glowing live demo button -->
+<a href="https://yashwanthnavari.github.io/-Heart-Disease-Risk-Prediction-System/" target="_blank">
+  <img src="https://img.shields.io/badge/🟢_LIVE-StrokeGuard_AI_Dashboard-00FF88?style=for-the-badge&labelColor=0D1117&color=00FF88" alt="Live Demo" height="45"/>
+</a>
+
+<br/><br/>
+
+<!-- Status badges row -->
+<img src="https://img.shields.io/badge/Status-Online_%F0%9F%9F%A2-brightgreen?style=flat-square&labelColor=0D1117" alt="Status: Online"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Host-GitHub_Pages-181717?style=flat-square&logo=github&logoColor=white&labelColor=0D1117" alt="GitHub Pages"/>
+&nbsp;
+<img src="https://img.shields.io/badge/CI%2FCD-GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white&labelColor=0D1117" alt="GitHub Actions"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Deploy-Auto_on_Push-E8323A?style=flat-square&logo=rocket&logoColor=white&labelColor=0D1117" alt="Auto Deploy"/>
+
+<br/><br/>
+
+<!-- Deployment info box -->
+| 🚀 Detail | 📋 Info |
+|:---|:---|
+| **Live URL** | [https://yashwanthnavari.github.io/-Heart-Disease-Risk-Prediction-System/](https://yashwanthnavari.github.io/-Heart-Disease-Risk-Prediction-System/) |
+| **Hosting Platform** | GitHub Pages |
+| **Build Tool** | Vite (React) |
+| **Deploy Trigger** | Auto-deploy on every push to `main` |
+| **CI/CD Pipeline** | GitHub Actions — `.github/workflows/deploy.yml` |
+
+</div>
+
+---
+
 ## 🚀 Overview
 
 **StrokeGuard AI** is not just an ML model, it's a bridge between clinical intuition and algorithmic prediction. Built to combat the severe class imbalance of real-world stroke datasets, this system implements pre-trained Logistic Regression, Random Forest, and AdaBoost models. 
